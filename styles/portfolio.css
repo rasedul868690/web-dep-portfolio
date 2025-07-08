@@ -6,6 +6,13 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/*header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* shared style*/
 .text-primary{
     color: #FD6E0A;
@@ -46,5 +53,26 @@ nav ul{
     align-items: center;
 }
 /* banar style */
+.banar-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banar-title{
+    font-weight:bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 30px;
+}
+.banar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
 
-
+}
+.banar-profile-pic{
+    width: 580px;
+}
+.banar-content{
+    max-width: 580px;
+}
